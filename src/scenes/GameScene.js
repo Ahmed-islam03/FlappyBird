@@ -503,7 +503,7 @@ export default class GameScene extends Phaser.Scene {
                     ease: 'Sine.easeInOut'
                 });
             } else {
-                Text.setText('GO!');
+                countText.setText('GO!');
                 countText.setScale(1);
                 this.tweens.add({
                     targets: countText,
